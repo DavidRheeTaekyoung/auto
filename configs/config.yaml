@@ -1,0 +1,33 @@
+data:
+  exchange: binanceusdm
+  symbol_internal: BTC/USDT
+  timeframe: 1m
+  backfill_days: 60
+  fetch_limit: 1000
+
+db:
+  path: C:/automation/BTC/data/ohlcv.duckdb
+
+model:
+  input_window: 512
+  horizons: { "1h": 60, "4h": 240, "24h": 1440 }
+  quantiles: [0.1, 0.5, 0.9]
+  lr: 0.0007
+  batch_size: 256
+  epochs: 20
+
+regime:
+  n_states: 5
+
+trade:
+  max_leverage: 25
+  kelly_base: 0.10       # 기본 Kelly 비율(분수표현), 확신도에 따라 가중
+  fee_bp: 6              # 수수료 bp 가정(왕복)
+  slip_bp: 5             # 슬리피지 bp 가정(왕복)
+  stoploss_cash_pct: 0.10     # 계좌 현금의 10% 손실 시 손절
+  trailing_giveback_pct: 0.30 # 이익의 30% 반환 시 트레일링 청산
+  max_position_usd: 50000     # 안전상 한도(USDT)
+  isolated_margin: true
+
+live:
+  loop_sec: 60
