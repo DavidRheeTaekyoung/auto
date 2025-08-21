@@ -1,0 +1,279 @@
+{
+  "best_params": {
+    "ema_fast": 17,
+    "ema_slow": 21,
+    "price_change_period": 20,
+    "price_change_threshold": 0.0007
+  },
+  "validation_result": {
+    "score": -51.79292681064848,
+    "trades": 49,
+    "return": -18.622753689096434,
+    "sharpe": -0.3334125377598296,
+    "max_dd": -44.121762029668034,
+    "win_rate": 28.57142857142857,
+    "final_eq": 8137.7246310903565
+  },
+  "top_20": [
+    {
+      "params": {
+        "ema_fast": 17,
+        "ema_slow": 21,
+        "price_change_period": 20,
+        "price_change_threshold": 0.0007
+      },
+      "score": 134.69504305520442,
+      "return": 95.68073872715121,
+      "sharpe": 4.5030469018756385,
+      "win_rate": 37.2093023255814,
+      "trades": 129
+    },
+    {
+      "params": {
+        "ema_fast": 13,
+        "ema_slow": 35,
+        "price_change_period": 8,
+        "price_change_threshold": 0.004
+      },
+      "score": 128.28453452076224,
+      "return": 25.762486237239703,
+      "sharpe": 5.709447384054527,
+      "win_rate": 100.0,
+      "trades": 2
+    },
+    {
+      "params": {
+        "ema_fast": 5,
+        "ema_slow": 28,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 5,
+        "ema_slow": 29,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 6,
+        "ema_slow": 26,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 6,
+        "ema_slow": 27,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 7,
+        "ema_slow": 23,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 7,
+        "ema_slow": 24,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 7,
+        "ema_slow": 25,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 8,
+        "ema_slow": 21,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 8,
+        "ema_slow": 22,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 9,
+        "ema_slow": 19,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 9,
+        "ema_slow": 20,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 10,
+        "ema_slow": 17,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 10,
+        "ema_slow": 18,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 11,
+        "ema_slow": 16,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 11,
+        "ema_slow": 17,
+        "price_change_period": 9,
+        "price_change_threshold": 0.005
+      },
+      "score": 120.89738794776059,
+      "return": 20.472499038721924,
+      "sharpe": 5.531369470142136,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 3,
+        "ema_slow": 31,
+        "price_change_period": 8,
+        "price_change_threshold": 0.005
+      },
+      "score": 119.36700713267675,
+      "return": 19.972842463476116,
+      "sharpe": 5.417966832319991,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 4,
+        "ema_slow": 27,
+        "price_change_period": 8,
+        "price_change_threshold": 0.005
+      },
+      "score": 119.36700713267675,
+      "return": 19.972842463476116,
+      "sharpe": 5.417966832319991,
+      "win_rate": 100.0,
+      "trades": 1
+    },
+    {
+      "params": {
+        "ema_fast": 4,
+        "ema_slow": 28,
+        "price_change_period": 8,
+        "price_change_threshold": 0.005
+      },
+      "score": 119.36700713267675,
+      "return": 19.972842463476116,
+      "sharpe": 5.417966832319991,
+      "win_rate": 100.0,
+      "trades": 1
+    }
+  ]
+}
